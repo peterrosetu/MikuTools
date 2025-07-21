@@ -175,13 +175,34 @@ export const state = () => {
                         ],
                         description: '身份证号码查询/生成'
                     }
+                },
+
+                {
+                    name: '时区转换器',
+                    path: '/time_change',
+                    head: {
+                        keywords: [
+                            '时区转换器',
+                            '时区'
+                        ],
+                        description: '时区转换'
+                    }
                 }
+
             ]
         },
         {
             title: '图片相关',
             icon: 'image-outline',
             list: [
+                {
+                    name: '格式转换',
+                    path: '/ffmpeg',
+                    head: {
+                        keywords: ['格式转换'],
+                        description: 'ffmpeg 格式转换'
+                    }
+                },
                 {
                     name: '九宫格切图',
                     path: '/img_jiugongge',
@@ -305,6 +326,14 @@ export const state = () => {
             title: '文字处理',
             icon: 'text-outline',
             list: [
+                {
+                    name: '文本对比',
+                    path: '/textdiff',
+                    head: {
+                        keywords: ['文本对比', '代码对比'],
+                        description: '文本在线对比'
+                    }
+                },
                 {
                     name: '文本去重',
                     path: '/remove_duplicate',
